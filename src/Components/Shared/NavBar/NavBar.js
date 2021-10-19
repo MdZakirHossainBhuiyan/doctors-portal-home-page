@@ -19,22 +19,22 @@ const NavBar = () => {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link ms-5 active" aria-current="page" href="#">Home</a>
+              <a class="nav-link ms-5 active" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link ms-5" href="#">About</a>
+              <a class="nav-link ms-5" href="/patient">Patient</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link ms-5" href="#">Dental Services</a>
+              <a class="nav-link ms-5" href="/dashboard">Dashboard</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link ms-5 text-white" href="#">Reviews</a>
+              <a class="nav-link ms-5 text-white" href="/admin">Admin</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link ms-5 text-white" href="#">Blog</a>
+              <a class="nav-link ms-5 text-white" href="/blog">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link ms-5 text-white" href="#">Contact Us</a>
+              <a class="nav-link ms-5 text-white" href="/contact">Contact Us</a>
             </li>
           </ul>
         </div>
